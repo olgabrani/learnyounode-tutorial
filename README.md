@@ -53,3 +53,7 @@ itself.
 
 A server response toString() is -duh- a sting. Consequently, to get the number
 of characters, I just have to do str.length
+
+### 9. Juggling async
+
+Yeap, I cheated on that one :S
