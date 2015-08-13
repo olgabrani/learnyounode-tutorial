@@ -1,6 +1,6 @@
 # [learnyounode](https://github.com/workshopper/learnyounode) exerices
 
-The answers I gave will going through the tutorial about learning the basics 
+The answers I gave while going through the tutorial about learning the basics 
 of node: asynchronous i/o, http.
 
 ## Things I learned
@@ -40,3 +40,11 @@ then run use:
 // The content of the file as a string
 var contents =fs.readFileSync(process.argv[2], 'utf8')
 ```
+
+### 6. Make it modular
+
+A tricky one! 
+I should bare in mind that when a user calls a function from a module, she 
+decides on what she will do with the data returned. It makes sense that the
+`console.log(file)` part will be in the main js file and not in the module
+itself.
